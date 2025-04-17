@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customised Dresses</title>
+    <style>
+body
+{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+    justify-content: center;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/026/858/284/small_2x/of-a-woman-in-a-white-dress-against-a-vibrant-pink-background-with-copy-space-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: #032261;
+    margin-bottom: 10px;
+}
+
+h2 {
+  color: #c71585;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 30px 20px;
+  max-width: 500px;
+  height: 500px;
+  text-align: center;
+ 
+}
+header {
+   
+    text-align: center;
+    animation: slideDown 1s ease-out forwards;
+    margin-bottom: 1px; 
+}
+nav {
+    display: flex;
+    justify-content: center; /* centers items horizontally */
+    gap: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+        nav a{
+            height: 50px;
+            color:rgb(5, 48, 53);
+            text-decoration: none;
+            text-align: center;
+            font-size: large;
+        }
+
+a {
+    color: #c71585;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #3c77ec;
+}
+button {
+    padding: 10px 20px;
+    background-color: #f133ab;
+    color: rgb(243, 243, 246);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a0136d;
+}
+
+footer {
+    
+    font-size: 15px;
+   padding-top: 60px;
+   color: #08031e;
+   
+}
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header {
+    animation: slideDown 1s ease-out forwards;
+}
+
+/* Optional: Add slight delay to section for a nice staggered effect */
+
+/* Section Animation - Left to Right */
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Apply to section only */
+section {
+    
+    animation: slideRight 1s ease-out forwards;
+    animation-delay: 1s;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+      
+        <h1>Design your Dream Dress</h1>
+        <nav>
+          <a href="index.html">Home</a> 
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+        </nav>
+    </header>
+    <center>
+    <section>
+            <h2>Welcome to Customised Dresses</h2>
+            <p>Looking for a dress that matches your exact style, fit, and imagination? You’re in the right place. We create custom-made outfits tailored from your own ideas and fabric choices.</p><br>
+         
+            <h2>Our Passion</h2>
+            <p>We create dresses based on your unique ideas and fabric preferences.</p><br>
+        
+            <h2>How It Works</h2>
+            <ol>
+              <li> Share your design idea or inspiration photo.</li>
+              <li>Choose your fabric or let us suggest one.</li>
+              <li> Receive your customised dress with the perfect fit.</li>
+            </ol>
+        
+      
+
+
+             <button onclick="showMessage()">Click Me!</button>
+    </section>
+</center>
+
+    <footer>
+      <marquee behavior="" direction="left"> <p>&copy; 2025 Customised Dresses</p></marquee>
+        
+    </footer>
+
+    <script>function showMessage() {
+        alert("Thank you for visiting Customised Dresses!");
+      }</script>
+</body>
+</html>
